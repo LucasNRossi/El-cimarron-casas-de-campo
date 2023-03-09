@@ -1,0 +1,178 @@
+/*PANTALLA-GRANDE*/
+@media(min-width: 700px) {
+
+    /*HEADER*/
+    .logo {
+        img{
+        width: 12em;
+        height: auto;
+        justify-content: center;
+        margin-left: 4em;
+        margin-top: .5em;
+        }
+    }
+    .navbar {
+        display: flex;
+        margin-right: 4em;
+        text-align: center;
+        a {
+            display: block;
+            padding: 10px 10px;
+            color: #995D1A;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    }
+
+    /*MAIN*/
+    /*INDEX*/
+    .contenedor-principal {
+        background: url(/imagenes/fondo-01.jpg) no-repeat center;
+        background-size: cover;
+        display: flex;
+        height: auto !important;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .textos-informativos{
+            margin-top: 20px;
+            margin-bottom: 1em;
+            font-size: 20px;
+            color: white;
+            text-align: center;
+        }
+    }
+    .contenedor-ubicacion {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-around;
+        align-items: center;
+        height: auto;
+        .textos-secundarios{
+            width: 700px;
+            margin-left: 3.5em;
+            .textos-informativos {
+                color: black;
+                text-align: center;
+            }
+        }
+        .map{
+            margin: 1em 3.5em 1em 2em;
+        }
+    }
+
+    /*COMODIDADES*/
+    .contenedor-comodidades {
+        display: flex;
+        height: auto;
+        flex-direction: column;
+        padding-left: 3em;
+        padding-right: 5em;
+        font-size: 20px;
+    }
+    .casas {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        justify-content: space-around;
+        align-items: center;
+        padding-left: 2em;
+        .textos-informativos{
+            padding-right: 2em;
+        }
+    }
+    .titulos-generales .casas .comodidades {
+        margin-top: 2em !important;
+    }    
+    .areas-comunes {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        justify-content: space-around;
+        align-items: center;
+        padding-left: 2em;
+        .textos-informativos{
+            padding-right: 3em;
+        }
+    }
+    .comodidades {
+        display: flex;
+        justify-content: space-between;
+        width: 330px;
+        height: 200px;
+        margin-left: .5em;
+        border-radius: .5em;
+    }
+    .restaurante {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        justify-content: space-around;
+        align-items: center;
+        padding-left: 2em;
+        .textos-informativos{
+            padding-right: 2em;
+        }
+    }
+    .rio {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        justify-content: space-around;
+        align-items: center;
+        text-align: left;
+        .textos-informativos{
+            padding: 2em;
+        }
+    }
+
+    /*EXPERIENCIAS*/
+    #experiencias-generales{
+        display: grid;
+        justify-content: space-around;
+    }
+    .items{
+        line-height: 1.8em;
+        width: 650px;
+    }
+
+    /*IMAGENES*/
+    .recipiente{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-content: space-around;
+        align-items: center;
+        padding-left: 1em;
+        padding-right: 1em;
+        .box-imagen {
+            img{
+                width: 300px;
+                height: 170px;
+                border-radius: .5em;
+                margin-bottom: 1.5em;
+            }
+        }
+    }
+
+    /*CONTACTO*/
+    .main-contacto {
+        padding: 0 4em;
+    }
+    .tarjeta-contacto {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .tarjeta-contacto > * {
+        padding: 2em;
+    }
+
+    /*FOOTER*/
+    .contenedor-footer {
+        .contenido-seccion{
+            .fila{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                height: 2em;
+                padding-bottom: 2em;
+            }
+        } 
+    }
+}

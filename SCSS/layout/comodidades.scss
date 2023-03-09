@@ -1,0 +1,25 @@
+/*MAIN-COMODIDADES*/
+.contenedor-comodidades {
+    background: #995D1A;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    padding-left: 2em;
+    padding-right: 2em;
+    text-align: left;
+    .titulos-generales {
+        color: white;
+    }
+}
+.casas {
+    .textos-informativos{
+        margin-top: 1em;
+    }
+}
+.comodidades{
+    display: flex;
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: .5em;
+}

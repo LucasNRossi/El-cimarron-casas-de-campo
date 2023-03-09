@@ -1,0 +1,28 @@
+/*MAIN-EXPERIENCIAS*/
+.contenedor-experiencias{
+    background: #995D1A;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    text-align: left;
+    padding-bottom: 1em;
+    .titulos-generales {
+        color: white;
+    }
+}
+#experiencias-generales{
+    margin-top: 2em;
+    list-style: none;
+    h3{
+        margin-top: 1em;
+    }
+}
+.items{
+    margin-top: .5em;
+    padding-left: 2.5em;
+    line-height: 1.3em;
+    list-style:disc;
+}
+

@@ -1,0 +1,31 @@
+/*MAIN-IMAGENES*/
+.contenedor-imagenes{
+    background: #995D1A;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-bottom: 1em;
+    .titulos-generales{
+        color: white;
+    }
+}
+.recipiente{
+    padding-top: 2em;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    .box-imagen {
+        img{
+        width: 100%;
+        height: auto;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-bottom: .5em;
+        }
+    }
+}
+
+
